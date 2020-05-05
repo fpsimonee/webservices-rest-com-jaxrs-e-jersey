@@ -1,12 +1,13 @@
     package br.com.alura.loja.resources;
 
     import br.com.alura.loja.dao.ProjetoDAO;
-    import br.com.alura.loja.modelo.Projeto;
+import br.com.alura.loja.modelo.Projeto;
 
-    import javax.ws.rs.GET;
-    import javax.ws.rs.Path;
-    import javax.ws.rs.Produces;
-    import javax.ws.rs.core.MediaType;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
 
     @Path("projetos")
     public class ProjetoResource {
@@ -15,6 +16,14 @@
         @Produces(MediaType.APPLICATION_XML)
         public String buscaProjeto(){
             Projeto projeto = new ProjetoDAO().busca(1l);
+            return projeto.toXML();
+        }
+
+        @Path("{id}")
+        @GET
+        @Produces(MediaType.APPLICATION_XML)
+        public String buscaProjetoPorIdPathParam(@PathParam("id") long id){
+            Projeto projeto = new ProjetoDAO().busca(id);
             return projeto.toXML();
         }
     }

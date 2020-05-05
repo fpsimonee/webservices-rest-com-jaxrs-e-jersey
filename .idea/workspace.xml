@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71152d4f-aa22-4512-84b5-c9bacb1fa2ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/modelo/Carrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/modelo/Carrinho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/br/com/alura/loja/dao/CarrinhoDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/br/com/alura/loja/modelo/Carrinho.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/br/com/alura/loja/modelo/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/ClienteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/Servidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/Servidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/resources/CarrinhoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/resources/CarrinhoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/resources/ProjetoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/resources/ProjetoResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +60,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="public" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/resteasy-client-3.0.2.Final.jar!/" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21031345" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -71,7 +74,7 @@
       <recent name="br.com.alura.loja.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClienteTest.testaQueBuscarUmCarrinhoTrazOCarrinhoEsperado">
+  <component name="RunManager" selected="JUnit.ClienteTest.testaQueBuscaUmProjetoPorId">
     <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.loja.Servidor" />
       <module name="loja" />
@@ -100,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClienteTest.testaQueAConexaoComOServidorFuncionaNoPathDeProjetos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClienteTest.testaQueBuscaUmCarrinhoPorId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="loja" />
       <extension name="coverage">
         <pattern>
@@ -110,13 +113,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.alura.loja" />
       <option name="MAIN_CLASS_NAME" value="br.com.alura.loja.ClienteTest" />
-      <option name="METHOD_NAME" value="testaQueAConexaoComOServidorFuncionaNoPathDeProjetos" />
+      <option name="METHOD_NAME" value="testaQueBuscaUmCarrinhoPorId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClienteTest.testaQueBuscarUmCarrinhoTrazOCarrinhoEsperado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClienteTest.testaQueBuscaUmProjetoPorId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="loja" />
       <extension name="coverage">
         <pattern>
@@ -126,13 +129,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.alura.loja" />
       <option name="MAIN_CLASS_NAME" value="br.com.alura.loja.ClienteTest" />
-      <option name="METHOD_NAME" value="testaQueBuscarUmCarrinhoTrazOCarrinhoEsperado" />
+      <option name="METHOD_NAME" value="testaQueBuscaUmProjetoPorId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClienteTest.testaQueValidaSeRetornoNaoEVazio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClienteTest.testaQueBuscaUmProjetoTrazOProjetoEsperado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="loja" />
       <extension name="coverage">
         <pattern>
@@ -142,7 +145,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.alura.loja" />
       <option name="MAIN_CLASS_NAME" value="br.com.alura.loja.ClienteTest" />
-      <option name="METHOD_NAME" value="testaQueValidaSeRetornoNaoEVazio" />
+      <option name="METHOD_NAME" value="testaQueBuscaUmProjetoTrazOProjetoEsperado" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ClienteTest.testaQueBuscarUmCarrinhoTrazOCarrinhoEsperado" />
-        <item itemvalue="JUnit.ClienteTest.testaQueAConexaoComOServidorFuncionaNoPathDeProjetos" />
-        <item itemvalue="JUnit.ClienteTest" />
+        <item itemvalue="JUnit.ClienteTest.testaQueBuscaUmProjetoPorId" />
+        <item itemvalue="JUnit.ClienteTest.testaQueBuscaUmCarrinhoPorId" />
         <item itemvalue="Application.Servidor" />
-        <item itemvalue="JUnit.ClienteTest.testaQueValidaSeRetornoNaoEVazio" />
+        <item itemvalue="JUnit.ClienteTest" />
+        <item itemvalue="JUnit.ClienteTest.testaQueBuscaUmProjetoTrazOProjetoEsperado" />
       </list>
     </recent_temporary>
   </component>
@@ -172,10 +175,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="187" y="153" width="1181" height="709" key="#Project_Structure" timestamp="1588638485014">
+    <state x="187" y="153" width="1181" height="709" key="#Project_Structure" timestamp="1588705853674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="187" y="153" width="1181" height="709" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1588638485014" />
+    <state x="187" y="153" width="1181" height="709" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1588705853674" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1588701418002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -192,22 +195,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="483" y="248" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588636421423" />
-    <state width="1876" height="282" key="GridCell.Tab.0.bottom" timestamp="1588705607158">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1588710738037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588705607158" />
-    <state width="1876" height="282" key="GridCell.Tab.0.center" timestamp="1588705607158">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588710738037" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1588710738036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588705607158" />
-    <state width="1876" height="282" key="GridCell.Tab.0.left" timestamp="1588705607158">
+    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588710738036" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1588710738036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588705607158" />
-    <state width="1876" height="282" key="GridCell.Tab.0.right" timestamp="1588705607158">
+    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588710738036" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1588710738037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588705607158" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588710738037" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1588705607155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -228,6 +231,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588638229342" />
+    <state x="690" y="275" key="extract.method.dialog" timestamp="1588708515674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588708515674" />
     <state x="656" y="118" width="607" height="804" key="find.popup" timestamp="1588638353190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -242,8 +249,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/alura/loja/resources/CarrinhoResource.java</url>
-          <line>15</line>
-          <properties class="br.com.alura.loja.resources.CarrinhoResource" method="buscaCarrinho">
+          <line>13</line>
+          <properties class="br.com.alura.loja.resources.CarrinhoResource">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
