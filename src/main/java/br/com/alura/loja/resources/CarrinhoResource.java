@@ -20,16 +20,16 @@ public class CarrinhoResource {
 //        return carrinho.toXML();
 //    }
 
-    @GET
-    @Produces(MediaType.APPLICATION_XML)
-    public String buscaCarrinhoPorIdQueryParam(@QueryParam("id") long id){
-        CarrinhoDAO dao = new CarrinhoDAO();
-        Carrinho carrinho = new Carrinho();
-
-        carrinho = dao.busca(id);
-
-        return carrinho.toXML();
-    }
+//    @GET
+//    @Produces(MediaType.APPLICATION_XML)
+//    public String buscaCarrinhoPorIdQueryParam(@QueryParam("id") long id){
+//        CarrinhoDAO dao = new CarrinhoDAO();
+//        Carrinho carrinho = new Carrinho();
+//
+//        carrinho = dao.busca(id);
+//
+//        return carrinho.toXML();
+//    }
 
     @Path("{id}")
     @GET
@@ -41,5 +41,16 @@ public class CarrinhoResource {
         carrinho = dao.busca(id);
 
         return carrinho.toXML();
+    }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    public String buscaCarrinhoJson(){
+        CarrinhoDAO dao = new CarrinhoDAO();
+        Carrinho carrinho = new Carrinho();
+
+        carrinho = dao.busca(1l);
+
+        return carrinho.toJson();
     }
 }

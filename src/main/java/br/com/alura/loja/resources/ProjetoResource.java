@@ -12,11 +12,19 @@ import javax.ws.rs.core.MediaType;
     @Path("projetos")
     public class ProjetoResource {
 
+//        @GET
+//        @Produces(MediaType.APPLICATION_XML)
+//        public String buscaProjeto(){
+//            Projeto projeto = new ProjetoDAO().busca(1l);
+//            return projeto.toXML();
+//        }
+
+
         @GET
-        @Produces(MediaType.APPLICATION_XML)
-        public String buscaProjeto(){
+        @Produces(MediaType.APPLICATION_JSON)
+        public String buscaProjetoJSON(){
             Projeto projeto = new ProjetoDAO().busca(1l);
-            return projeto.toXML();
+            return projeto.toJson();
         }
 
         @Path("{id}")

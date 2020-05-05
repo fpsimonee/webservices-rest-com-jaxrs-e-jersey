@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71152d4f-aa22-4512-84b5-c9bacb1fa2ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/ClienteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/Servidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/Servidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/modelo/Carrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/modelo/Carrinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/modelo/Projeto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/modelo/Projeto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/resources/CarrinhoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/resources/CarrinhoResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/resources/ProjetoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/resources/ProjetoResource.java" afterDir="false" />
     </list>
@@ -74,7 +73,7 @@
       <recent name="br.com.alura.loja.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClienteTest.testaQueBuscaUmProjetoPorId">
+  <component name="RunManager" selected="Application.Servidor">
     <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.loja.Servidor" />
       <module name="loja" />
@@ -153,9 +152,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Servidor" />
         <item itemvalue="JUnit.ClienteTest.testaQueBuscaUmProjetoPorId" />
         <item itemvalue="JUnit.ClienteTest.testaQueBuscaUmCarrinhoPorId" />
-        <item itemvalue="Application.Servidor" />
         <item itemvalue="JUnit.ClienteTest" />
         <item itemvalue="JUnit.ClienteTest.testaQueBuscaUmProjetoTrazOProjetoEsperado" />
       </list>
@@ -195,22 +194,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="483" y="248" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588636421423" />
-    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1588710738037">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1588711407932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588710738037" />
-    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1588710738036">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588711407932" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1588711407932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588710738036" />
-    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1588710738036">
+    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588711407932" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1588711407931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588710738036" />
-    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1588710738037">
+    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588711407931" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1588711407932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588710738037" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588711407932" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1588705607155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
